@@ -1,0 +1,30 @@
+.container{
+  background : grey;
+}
+
+* {
+  box-sizing : border-box;
+}
+body{
+  margin : 5;
+  background-color: lightblue;
+}
+legend{
+  font-size: 15px;
+  padding: 0 5px;
+}
+fieldset{
+  border: 1px;
+  padding : 20px 12px;
+}
+textarea{
+  width: 160px;
+  resize : both;
+}
+select {
+  padding : 3px;
+  border: 1px;
+}
+#course{
+ width: 120px
+}

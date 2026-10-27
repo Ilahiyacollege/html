@@ -1,0 +1,99 @@
+
+<html>
+<head>
+  <title> Registratoin Form </title>
+  <link rel="StyleSheet" type="text/css" href="./registrationForm.css">
+<head>
+
+<body bgColor="Skyblue">
+
+<h1>Regisration Form </h1>
+<form>
+
+<div class="container">
+  <fieldset>
+    <legent>User Information </legent>
+
+      <label> Name </label>
+        <select>
+         <option>Mr.</option>
+         <option>Mrs.</option>
+         <option>Miss.</option>
+        </select>
+
+    <input type="text" id="name" placeholder="your name" required>
+    <label>Phone </lable>
+    <input type="tel" placeholder="phone number" required>
+
+    <label>email</lable>
+    <input type="email" placeholder="email" required>
+  </fieldset>
+</div>
+
+</br>
+</br>
+
+
+<div class="adress">
+  <label for="address">Address</label>
+  <textarea id="address" required ></textarea>
+</div>
+</br> 
+</br>
+
+<div class="radio">
+    <label>Gender:</label>
+    <input type="radio" name="gender" required>
+    <label>male</label>
+
+    <input type="radio" name="gender" required>
+    <label>Female</label>
+    <input type="radio" name="gender" required>
+    <label>Other</label>
+</div>
+</br> </br>
+
+<div class="languages">
+
+    <label> Languages known : <label>
+    <input type="checkbox">english
+    <input type="checkbox">Malayalam
+    <input type="checkbox">Hindi
+
+</div>
+</br> </br>
+
+<div>
+<label> Course <label>
+
+<select id ="course">
+<option> Maths </option>
+<option> English </option>
+<option> Malayalam </option>
+</select>
+
+</div>
+</br> 
+
+<div>
+<label> Department <label>
+
+<select id ="course">
+<option> MCA </option>
+<option> CS </option>
+<option> BTech </option>
+</select>
+
+</div>
+</br> </br>
+
+
+<center>
+ <button value="submit"> Submit </button>
+ <button value="reset"> Reset </button>
+ 
+</center>
+
+</form>
+</body>
+</html>
